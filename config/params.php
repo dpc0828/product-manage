@@ -19,7 +19,7 @@ return [
             'time' => '09:00-20:00'
         ]
     ],
-    'copyright' => 'Copyright © 2020 by A.3.A',
+    'copyright' => 'Copyright © 2020 by A.3.A,本系统不得用于一切违法行为',
     'upload_image_url' => 'http://test.taobao.com',
     'admin_cookie_name' => 'DSY_TQ',
 ];
