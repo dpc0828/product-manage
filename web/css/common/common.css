@@ -1,0 +1,235 @@
+@charset "utf-8";
+/* CSS Document */
+html
+{
+	--theme: #01AAED;
+}
+body
+{
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+/*-------状态栏美化-----------*/
+
+::-webkit-scrollbar 
+{
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track 
+{
+    border-radius: 3px;
+    background: rgba(0,0,0,0.06);
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.08);
+}
+
+::-webkit-scrollbar-thumb 
+{
+    border-radius: 3px;
+    background: rgba(0,0,0,0.12);
+    -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.2);
+}
+/*-------状态栏美化end-----------*/
+
+.col_name th
+{
+	text-align: center;	
+}
+
+.padding-2
+{
+	padding: 2%!important;
+}
+
+.padding-1
+{
+	padding: 1%!important;
+}
+
+
+@media only screen and (max-width: 1680px) {
+	#box
+	{
+		padding: 2% 4%;	
+	}
+}
+
+@media only screen and (min-width: 1680px) {
+	#box
+	{
+		padding: 2% 7%;	
+	}
+}
+
+#sidenav
+{
+	text-align: center;
+}
+
+#sidenav li
+{
+	cursor: pointer;
+	font-size: 1.1em;
+	line-height: 3em;
+}
+
+#right
+{
+	padding: 0 2%;
+	border-left: 1px solid #ddd;
+}
+
+.active_li
+{
+	height: 100%;
+	background-color: #f2f2f2;
+}
+
+input[type="text"]:disabled, textarea:disabled, input[type="number"]:disabled
+{
+    background-color: #FBFBFB;
+    border-color: #e6e6e6;
+    color: #C9C9C9;
+    cursor: not-allowed;
+}
+
+.float-right
+{
+	float: right;
+}
+
+#roll-notice{width:100%; padding: 0.32% 0; overflow:hidden; background:var(--theme);}
+#roll-notice marquee{height: 1.7rem;}
+
+.bar-container{margin-left:auto; margin-right:auto; width:75%!important; font-family:microsoft yahei;}
+
+table{border:solid #ddd;border-width:0px 0px 0px 0px;text-align:center;width: 100%;border-collapse: collapse; font-size: 14px;}
+.hdtop h1
+{
+	float: left;
+}
+.shury_1
+{
+	padding-top: 1%;
+	float: left;
+	padding-left: 1em;
+}
+.exit_i, .hy_state
+{
+	float: left !important;
+}
+.hy_state img
+{
+	width: 42px;
+	border-radius: 100%;
+	margin-right: 10px;
+	float: left;
+	border: 1px #fff solid;
+}
+.hy_state span
+{
+	float: left;
+}
+.hy_state span
+{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 53px;
+	margin-top: 12px;
+	font-size: 15px;
+}
+.hy_state img:hover
+{
+	-webkit-box-shadow: 0 3px 7px #BFBFBF !important;
+	border: 1px #fff solid;
+	-moz-box-shadow: 0 3px 7px #BFBFBF !important;
+	box-shadow: 0 3px 7px #BFBFBF !important;
+}
+.hy_state a:hover em
+{
+	color: red;
+}
+.hy_state a:hover
+{
+	color: #222;
+}
+.exit_i
+{
+	font-size: 12px;
+	background: #bb0a0a;
+	color: #fff;
+	border-radius: 4px;
+	height: 23px;
+	line-height: 23px;
+	margin-top: 25px;
+	width: 40px;
+	text-align: center;
+}
+.exit_i:hover
+{
+	background: #ce0a0a;
+}
+.hy_state span b
+{
+	font-weight: bold;
+	display: block;
+	font-size: 14px;
+}
+ul, ol, li, h1, h2, h3, h4, h5, h6, p {
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+}
+table{border:solid #ddd;border-width:0px 0px 0px 0px;text-align:center;width: 100%;border-collapse: collapse; font-size: 14px;}
+th,td{ padding: 10px 0; line-height: 22px;}
+td{border:solid #ddd;border-width:0px 1px 1px 0px;margin: 0px;}
+th{ background:#f2f2f2; border-bottom:1px solid #e6e6e6; border-right:1px solid #e6e6e6; font-weight:normal; color: #666;}
+
+a:not(.layui-layer-btn0):hover{color: #01AAED!important;}
+
+._required:before
+{
+	content: '• ';
+	color: red;
+	font-size: 2rem;
+    vertical-align: middle;
+}
+
+.text-danger{color: #FF5722!important;}
+
+#bar_notice{margin-top: 2%;}
+
+@media (max-width: 1746px) {
+	#bar_notice{display: none;}
+}
+
+.suspend_shadow {box-shadow: 0 0 80px #c8c8c8;}
+
+.float-left {float: left;}
+
+#roll-notice
+{
+	
+	box-shadow:-1px 4px 6px -1px #333333;
+	animation: breathe_shadow 3s infinite;
+	animation-direction:alternate;
+}
+
+@keyframes breathe_shadow
+{
+	from {box-shadow:-1px 4px 6px -1px #333333;}
+	to {box-shadow: 4px 7px 10px -1px #333333;}
+}
+
+.narrow_2 {padding: 0 2%;}
+
+.width-30 {width: 30rem!important;}
+
+.margin-0 {margin: 0!important;}
+
+.text-overflow{
+    overflow: hidden;    
+    text-overflow:ellipsis;    
+    white-space: nowrap;
+}

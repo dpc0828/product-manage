@@ -1,0 +1,107 @@
+.layui-form-label
+{
+	width: 7.6em;	
+}
+
+#details-form .layui-form-label
+{
+	width: 15%;
+}
+
+.edit-pwd
+{
+	position: absolute;
+	left: 10em;
+	cursor: pointer;
+}
+
+.layui-form-item
+{
+	margin-bottom: 1%!important;
+}
+
+.text-blue
+{
+	color: #1E9FFF;
+}
+
+.tip-card
+{
+	border: 1px solid #d8ddde;
+	padding: 0 2.5%;
+	border-radius: 5px;
+}
+
+.card-header
+{
+	padding: 1.5%;
+	border-bottom: 1px solid #d8ddde;
+}
+
+#invite
+{
+	padding-top: 2%;
+}
+
+.layui-colla-item h2
+{
+	margin: 0!important;
+}
+.layui-btn-fluid
+{
+	margin-bottom: 5%;
+}
+
+@media only screen and (max-width: 1680px) {
+	.search_form .layui-input-inline
+	{
+		width: 9.6em!important;
+	}
+
+}
+
+
+@media only screen and (min-width: 1680px) {
+	.search_form .layui-input-inline
+	{
+		width: 10.8em!important;
+	}
+
+}
+
+#binding-shop .layui-form-label, #wh_form .layui-form-label
+{
+	padding: 9px 5px;
+}
+
+.input-pid
+{
+	width: 20em; 
+	display: inline-block;
+}
+.input-link
+{
+	width: 43.69em; 
+	display: inline-block;
+}
+
+#target .layui-input-inline, #behavior .layui-input-inline
+{
+	width: 70px;
+}
+
+#behavior .layui-form-label
+{
+	width: auto!important;
+	padding: 9px 1px;
+}
+
+.layui-table-tool{z-index: 2!important;}
+
+input:read-only:not(.layui-unselect)
+{    
+    background-color: #FBFBFB;
+    border-color: #e6e6e6;
+    color: #C9C9C9;
+    cursor: not-allowed;
+}
